@@ -97,5 +97,16 @@ article{
 .nav-principal ul{
     justify-content: center;
 }
+.nav-principal li{
+   padding: 7px;
 }
-
+header form{
+    padding: 10px;
+}
+header input {
+    padding: 8px;
+}
+header button {
+    padding: 8px;
+}
+}
