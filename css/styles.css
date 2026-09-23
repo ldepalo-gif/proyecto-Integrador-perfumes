@@ -3,3 +3,99 @@
     margin: 0; 
     padding: 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.marca{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-principal ul{
+    display: flex;
+}
+
+.nav-secundario {
+    width: 200px;
+    padding: 20px;
+}
+
+.nav-secundario ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-secundario li {
+    padding: 15px;
+}
+article {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+article img {
+    width: 100%;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contenido-principal {
+    display: flex;
+}
+
+.contenido-productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-detalle {
+    background-color: black;
+    color: white; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color:beige;
+}
+
+@media (max-width: 768px){
+header {
+   flex-direction: column;
+}
+.contenido-principal{
+    flex-direction: column;
+}
+article{
+    width: 100%;
+}
+.nav-secundario {
+    width: 100%;
+}
+.nav-principal ul{
+    justify-content: center;
+}
+}
+
