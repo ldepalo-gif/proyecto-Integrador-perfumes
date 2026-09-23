@@ -7,98 +7,139 @@
     <title>Fragancias</title>
 </head>
 <body>
-    <header>
-        <a href="./index.html">
-            <img src="./archivos.img/huella.jpg" alt="logo huella">
-            <h1>Huella</h1>
+    <header class="header">
+        <a class="headerlogo" href="./index.html">
+            <img class="headerlogoimg" src="./archivos.img/huella.jpg" alt="logo huella">
+            <h1 class="headerlogotxt">Huella</h1>
         </a>
-    <form action="./searchresult.html" method="get">
-        <input type="text" name="busqueda" placeholder="Buscar fragancia">
-        <button type="submit">Buscar</button>
+    <form class="buscador" action="./searchresult.html" method="get">
+        <input class="buscadorinput" type="text" name="busqueda" placeholder="Buscar fragancia">
+        <button class="buscadorboton" type="submit">Buscar</button>
     </form>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./login.html">Log in</a></li>
-                <li><a href="./register.html">Registro</a></li>
+        <nav class="navusuario">
+            <ul class="navusuariolista">
+                <li><a class="navusuariolink" href="./index.html">Home</a></li>
+                <li><a class="navusuariolink" href="./login.html">Log in</a></li>
+                <li><a class="navusuariolink" href="./register.html">Registro</a></li>
             </ul>
         </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="./category.html">Beauty</a></li>
-            <li><a href="./category.html">fragrances</a></li>
-            <li><a href="./category.html">furniture</a></li>
-            <li><a href="./category.html">groceries</a></li>
-            <li><a href="./category.html">home decoration</a></li>
-            <li><a href="./category.html">kitchen accessories</a></li>
-            <li><a href="./category.html">laptops</a></li>
-            <li><a href="./category.html">mens shirts</a></li>
-            <li><a href="./category.html">mens shoes</a></li>
-            <li><a href="./category.html">mens watches</a></li>
-            <li><a href="./category.html">mobile accessories</a></li>
-            <li><a href="./category.html">motorcycle</a></li>
-            <li><a href="./category.html">skin care</a></li>
-            <li><a href="./category.html">smartphones</a></li>
-            <li><a href="./category.html">sports accessories</a></li>
-            <li><a href="./category.html">sunglasses</a></li>
-            <li><a href="./category.html">tablets</a></li>
-            <li><a href="./category.html">tops</a></li>
-            <li><a href="./category.html">vehicle</a></li>
-            <li><a href="./category.html">womens bags</a></li>
-             <li><a href="./category.html">womens jewellery</a></li>
-            <li><a href="./category.html">womens shoes</a></li>
-            <li><a href="./category.html">womens watches</a></li>
+    <nav class="navcategorias">
+        <ul class="navcategoriaslista">
+            <li><a class="navcategoriaslink" href="./category.html">Beauty</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">fragrances</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">furniture</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">groceries</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">home decoration</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">kitchen accessories</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">laptops</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">mens shirts</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">mens shoes</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">mens watches</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">mobile accessories</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">motorcycle</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">skin care</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">smartphones</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">sports accessories</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">sunglasses</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">tablets</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">tops</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">vehicle</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">womens bags</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">womens dresses</a></li>
+             <li><a class="navcategoriaslink" href="./category.html">womens jewellery</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">womens shoes</a></li>
+            <li><a class="navcategoriaslink" href="./category.html">womens watches</a></li>
         </ul>
     </nav>
-    <section>
-        <h2>Fragancias de Mujer</h2>
-         <article>
+
+    <main class="contenido">
+    <section class="seccion" id="categoria">
+        
+        <div class="categoriacabecera">
+        <h2 class="secciontitulo">Fragancias de Mujer</h2>
+        <p class="contadorcategoria">6 productos</p>
+        </div>
+
+        <div class="grillaproductos">
+         <article class="productocard">
+            <div class="productocardimg">
             <img src="./archivos.img/cacharelamoramor.webp" alt="Perfume Cacharel Amor Amor">
+            </div>
+
+            <div class="productocardinfo">
             <h3>Cacharel Amor Amor 100ml</h3>
             <p>Perfume dulce, frutal y femenino, con mandarina, grosella, flores y un fondo de vainilla y almizcle. Tiene una onda juvenil, romántica y alegre. Ideal para todos los días o una salida.</p>
             <p>$145.000</p>
             <a href="./product.html">Ver detalle</a>
+            </div>
         </article>
-        <article>
+        <article class="productocard">
+            <div class="productocardimg">
             <img src="./archivos.img/blackopiumysl.webp" alt="YSL Black Opium">
+            </div>
+
+            <div class="productocardinfo">
             <h3>YSL Black Opium 100ml</h3>
             <p> Perfume dulce, intenso y sensual. Se destacan el café, la vainilla y las flores blancas. Es más para la noche, citas, salidas y otoño/invierno.</p>
             <p>$200.000</p>
             <a href="./product.html">Ver detalle</a>
+            </div>
         </article>
-        <article>
+        <article class="productocard">
+            <div class="productocardimg">
             <img src="./archivos.img/siarmani.webp" alt="Armani Sì">
+            </div>
+
+            <div class="productocardinfo">
             <h3>Armani Sì 100ml</h3>
             <p>Perfume elegante, femenino y dulce, con grosella negra, flores, vainilla y pachulí. Es sofisticado sin ser demasiado pesado. Ideal para salidas, cenas o uso elegante.</p>
              <p>$215.000</p>
             <a href="./product.html">Ver detalle</a>
+            </div>
         </article>
-         <article>
+         <article class="productocard">
+
+            <div class="productocardimg">
             <img src="./archivos.img/valentinoborninroma.webp" alt="Valentino Donna Born in Roma">
+            </div>
+
+            <div class="productocardinfo">
             <h3>Valentino Donna Born in Roma 100ml</h3>
             <p> Perfume dulce, floral y moderno, con jazmín, vainilla y notas amaderadas. Es femenino, sensual y bastante versátil. Ideal para salidas, citas y noche.</p>
              <p>$386.000</p>
             <a href="./product.html">Ver detalle</a>
+            </div>
         </article>
-        <article>
+        <article class="productocard">
+            <div class="productocardimg">
             <img src="./archivos.img/guerlianroseamira.webp" alt="Guerlain Absolus Allegoria Rose Amira">
+            </div>
+
+            <div class="productocardinfo">
             <h3>Guerlain Absolus Allegoria Rose Amira 100ml</h3>
             <p>Perfume intenso, floral y lujoso, centrado principalmente en la rosa con un fondo cálido y profundo. Es sofisticado y de alta perfumería, más para ocasiones especiales.</p>
              <p>$410.000</p>
             <a href="./product.html">Ver detalle</a>
+              <div class="productocardinfo"></div>
         </article>
-        <article>
+        <article class="productocard">
+            <div class="productocardimg">
             <img src="./archivos.img/missdior.webp" alt="Miss Dior">
+            </div>
+
+            <div class="productocardinfo">
             <h3>Miss Dior 100ml</h3>
             <p> Perfume floral, romántico y elegante. Tiene una sensación femenina y arreglada, con flores y un fondo suavemente amaderado. Ideal para uso diario, citas o eventos.</p>
             <p>$200.000</p>
             <a href="./product.html">Ver detalle</a>
+            </div>
         </article>
+        </div>
     </section>
-    
-    <footer>
-        <p>Integrantes:Lucia Depalo, Clara Berger y Faustino Lazagasti</p>
+</main>
+    <footer class="footer">
+        <p class="footertexto">Integrantes:Lucia Depalo, Clara Berger y Faustino Olazagasti</p>
     </footer>
 
 </body>
