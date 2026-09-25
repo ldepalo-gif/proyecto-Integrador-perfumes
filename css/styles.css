@@ -59,7 +59,7 @@ header button {
 .botoningresar {
     width: 100%;
     padding: 10px;
-    background-color: rgb(146, 98, 56);
+    background-color: rgb(118, 101, 85);
     color: white;
     border: none;
 }
@@ -132,7 +132,7 @@ article img {
 }
 
 .boton-detalle {
-    background-color: rgb(146, 98, 56);
+    background-color: rgb(118, 101, 85);
     color: white; 
     padding: 10px;
     text-decoration: none;
@@ -207,21 +207,45 @@ article img {
 .reviews {
     margin: 30px;
 }
+.reviews h2 {
+    margin: 0 0 20px 0;
+}
 .reviews article {
     width: 30%;
     padding: 25px;
-    border: 2px solid beige;
+    border: 2px solid rgb(221, 201, 180);
 }
 .reviews-contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.review-rating {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(221, 201, 180);
+    margin: 10px 0;
+}
 
+.review-comentario {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.review-usuario {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.review-fecha {
+    font-size: 13px;
+    color: rgb(118, 101, 85)
+}
 footer{
     padding: 20px;
     text-align: center;
-    background-color: rgb(146, 98, 56);
+    background-color: rgb(118, 101, 85);
     color: white;
 }
 
