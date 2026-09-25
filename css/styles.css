@@ -40,7 +40,7 @@ header h1 {
 
 }
 .formulario {
-    width: 350px;
+    width: 450px;
     padding: 20px;
     border: 1px solid beige;
     background-color: rgb(241, 231, 220);
@@ -139,12 +139,13 @@ article img {
     padding: 10px;
     text-decoration: none;
 }
-.contenidoangosto {
+.contenido-login {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    margin-top: 200px;
+
 }
 
 footer{
