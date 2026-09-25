@@ -36,9 +36,7 @@ header button {
     color: black;
     border: 1px solid beige;
 }
-header h1 {
 
-}
 .formulario {
     width: 450px;
     padding: 20px;
@@ -144,8 +142,76 @@ article img {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 200px;
+    padding: 200px;
 
+}
+.contenido-register {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 200px;
+}
+
+.imagen-blackopium {
+    width: 550px;
+    padding: 30px;
+}
+.nombre-perfume{
+    font-size: 32px;
+    margin: 10px 0;
+}
+.contenido-blackopium {
+     width: 100%;
+    padding: 30px;
+}
+.detalle-blackopium {
+    padding: 20px;
+}
+.producto-info {
+    width: 450px;
+    padding: 30px;
+    margin: 80px;
+}
+.producto-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.precio {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.marca-product {
+    font-size: 20px;
+}
+.datos-producto {
+    background-color: rgb(241, 231, 220);
+    padding: 15px;
+}
+.datos-producto ul {
+    display: flex;
+    list-style: none;
+}
+.datos-producto li {
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+}
+.reviews {
+    margin: 20px;
+}
+.reviews article {
+    width: 30%;
+    padding: 25px;
+    border: 2px solid beige;
+}
+.reviews-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer{
