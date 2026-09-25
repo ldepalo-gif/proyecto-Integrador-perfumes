@@ -387,13 +387,15 @@ header input {
 header button {
     padding: 8px;
 }
+.contenedor-productos article {
+    width: 100%;
+}
 .grillaproductos .productocard {
     width: 100%;
 }
 .productocard {
     width: 100%;
 }
-
 .productocardinfo {
     padding: 20px;
 }
@@ -418,6 +420,17 @@ header button {
 .producto-info {
     width: 100%;
     margin: 0;
+    padding: 20px;
+}
+.formulario {
+    width: 100%;
+}
+
+.contenido-login {
+    width: 100%;
+    padding: 20px;
+}
+.contenido-register {
     padding: 20px;
 }
 }
