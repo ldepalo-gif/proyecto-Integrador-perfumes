@@ -74,6 +74,12 @@ article img {
     padding: 10px;
     text-decoration: none;
 }
+.contenidoangosto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer{
     padding: 20px;
