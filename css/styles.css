@@ -16,9 +16,37 @@ header {
 }
 
 .logo {
-    width: 60px;
+    width: 80px;
 }
-
+.formulario {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid beige;
+}
+.formularioinput {
+    width: 100%;
+    padding: 10px;
+}
+.formularioespacio {
+    margin-bottom: 15px;
+}
+.formulariolink {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+.botoningresar {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(146, 98, 56);
+    color: white;
+    border: none;
+}
+.secciontitulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .marca{
     display: flex;
     align-items: center;
@@ -69,7 +97,7 @@ article img {
 }
 
 .boton-detalle {
-    background-color: black;
+    background-color: rgb(146, 98, 56);
     color: white; 
     padding: 10px;
     text-decoration: none;
@@ -79,12 +107,14 @@ article img {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 footer{
     padding: 20px;
     text-align: center;
-    background-color:beige;
+    background-color: rgb(146, 98, 56);
+    color: white;
 }
 
 @media (max-width: 768px){
