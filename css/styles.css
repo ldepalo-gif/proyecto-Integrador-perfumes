@@ -161,6 +161,10 @@ article img {
     font-size: 32px;
     margin: 10px 0;
 }
+.parrafo-producto {
+    font-size: 16px;
+    margin: 15px 0;
+}
 .contenido-blackopium {
      width: 100%;
     padding: 30px;
@@ -180,7 +184,7 @@ article img {
 
 }
 .precio {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     margin: 20px 0;
 }
@@ -188,7 +192,7 @@ article img {
     font-size: 20px;
 }
 .datos-producto {
-    background-color: rgb(241, 231, 220);
+    background-color: rgb(249, 243, 236);
     padding: 15px;
 }
 .datos-producto ul {
@@ -201,7 +205,7 @@ article img {
     margin: 5px;
 }
 .reviews {
-    margin: 20px;
+    margin: 30px;
 }
 .reviews article {
     width: 30%;
