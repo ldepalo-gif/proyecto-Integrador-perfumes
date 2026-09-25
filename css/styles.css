@@ -14,14 +14,36 @@ header {
     align-items: center;
     padding: 20px;
 }
+header h1 {
+    font-size: 24px;
+    color: black;
+    margin-left: 15px;
+}
 
 .logo {
-    width: 80px;
+    width: 70px;
+}
+header input {
+    padding: 10px;
+    width: 200px;
+}
+header form {
+    padding: 10px;
+}
+header button {
+    padding: 10px;
+    background-color:rgb(241, 231, 220) ;
+    color: black;
+    border: 1px solid beige;
+}
+header h1 {
+
 }
 .formulario {
     width: 350px;
     padding: 20px;
     border: 1px solid beige;
+    background-color: rgb(241, 231, 220);
 }
 .formularioinput {
     width: 100%;
@@ -55,20 +77,35 @@ header {
 
 .nav-principal ul{
     display: flex;
+    list-style: none;
 }
-
+.nav-principal li{
+    padding: 10px;
+    
+}
+.nav-principal a {
+    color: black;
+    text-decoration: none;
+}
 .nav-secundario {
     width: 200px;
     padding: 20px;
+    background-color: rgb(241, 231, 220);
 }
 
 .nav-secundario ul{
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .nav-secundario li {
-    padding: 15px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.nav-secundario a {
+    color: black;
+    text-decoration: none;
 }
 article {
     width: 250px;
