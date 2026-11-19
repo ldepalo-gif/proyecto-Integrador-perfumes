@@ -1,10 +1,9 @@
 
-let formulario = document.querySelector("#formlogin");
-let email = document.querySelector("#email");
+let formularioLogin = document.querySelector("#formlogin");let email = document.querySelector("#email");
 let password = document.querySelector("#password");
 let errorLogin = document.querySelector(".error-login");
 
-formulario.addEventListener("submit", function(event) {
+formularioLogin.addEventListener("submit", function(event) {
     event.preventDefault();
 
     let emailIngresado = email.value;
@@ -25,7 +24,7 @@ if (passwordIngresada.length < 6) {
 errorLogin.innerText = "";
 
 localStorage.setItem("email", emailIngresado);
-
+git 
 window.location.href = "./index.html";
 
 });
