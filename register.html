@@ -12,23 +12,23 @@
             <img class="logo"  src="./img/huella.jpg" alt="logo huella">
             <h1>HUELLA</h1>
         </a>
-       <form class="form-busqueda" action="./search-results.html" method="get">
-    <input type="text" id="busqueda" name="busqueda" placeholder="Buscar fragancia">
-    <button type="submit">Buscar</button>
-    <p class="error-busqueda"></p>
-</form>
+        <form class="form-busqueda" action="./search-results.html" method="get">
+         <input type="text" id="busqueda" name="busqueda" placeholder="Buscar fragancia">
+         <button type="submit">Buscar</button>
+         <p class="error-busqueda"></p>
+        </form>
     
-<nav class="nav-principal">
-    <ul class="navusuariolista">
-        <li><a class="navusuariolink" href="./index.html">Home</a></li>
-        <li class="menu-login"><a class="navusuariolink" href="./login.html">Log in</a></li>
-        <li class="menu-registro"><a class="navusuariolink" href="./register.html">Registro</a></li>
-        <li class="menu-saludo"></li>
-        <li class="menu-logout"><a class="navusuariolink" href="#">Logout</a></li>
-    </ul>
-</nav>
-
+        <nav class="nav-principal">
+             <ul class="navusuariolista">
+                <li><a class="navusuariolink" href="./index.html">Home</a></li>
+                <li class="menu-login"><a class="navusuariolink" href="./login.html">Log in</a></li>
+                <li class="menu-registro"><a class="navusuariolink" href="./register.html">Registro</a></li>
+                <li class="menu-saludo"></li>
+                <li class="menu-logout"><a class="navusuariolink" href="#">Logout</a></li>
+            </ul>
+        </nav>
     </header>
+
 <div class="contenido-principal">
     <nav class="nav-secundario">
         <ul class="lista-categorias"> 
@@ -61,8 +61,7 @@
 <main class="contenido-register">
     <section>
             <h2>Registrarse</h2>
-
-            <form class="formulario" action="./login.html" method="get">
+            <form class="formulario" id="formregister">
 
                 <div class="formularioespacio">
                     <label class="formulariolabel" for="email">Email</label>
@@ -76,28 +75,30 @@
 
                 <div class="formularioespacio">
                     <label class="formulariolabel">Repetir contraseña</label>
-                    <input class="formularioinput" type="password" name="repetir-password" placeholder="Repita su contraseña" required>
+                    <input class="formularioinput" type="password" id="repetir-password" name="repetir-password" placeholder="Repita su contraseña" required>
                 </div>
 
                 <div class="formulariocheck">
                     <input class="formulariocheckbox" type="checkbox" id="terminos" name="terminos" required>
                     <label class="formulariolabelcheck" for="terminos">Acepto términos y condiciones</label>
                 </div>
-
+                
+                <p class="error-register"></p>
                 <button class="botoningresar" type="submit">Registrarme</button>
                 <a class="formulariolink" href="./login.html">Ya tengo una cuenta</a>
        </form>
    </section>
    </main>
-</div>  
+</div> 
+
  <footer class="footer">
-        <p class="footertexto">Integrantes: Lucía Depalo y Clara Berger </p>
-    </footer>
+    <p class="footertexto">Integrantes: Lucía Depalo y Clara Berger </p>
+</footer>
+   
     <script src="./js/search-results.js"> </script> 
     <script src="./js/category.js"></script>
     <script src="./js/register.js"></script>
     <script src="./js/saludo.js"></script>
     <script src="./js/logout.js"></script>
-
 </body>
 </html>
