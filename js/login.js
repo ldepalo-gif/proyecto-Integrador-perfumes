@@ -24,7 +24,7 @@ if (passwordIngresada.length < 6) {
 errorLogin.innerText = "";
 
 localStorage.setItem("email", emailIngresado);
-git 
+
 window.location.href = "./index.html";
 
 });
