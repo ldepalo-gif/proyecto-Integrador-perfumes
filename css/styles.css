@@ -30,6 +30,16 @@ header input {
 header form {
     padding: 10px;
 }
+
+.form-busqueda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.error-busqueda {
+    width: 100%;
+    flex-wrap: wrap;
+}
 header button {
     padding: 10px;
     background-color:rgb(241, 231, 220) ;

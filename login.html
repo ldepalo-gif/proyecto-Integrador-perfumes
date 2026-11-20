@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HUELLA</title>
 </head>
 <body>
   <header class="header">
@@ -13,11 +13,10 @@
             <h1>HUELLA</h1>
         </a>
         <form class="form-busqueda" action="./search-results.html" method="get">
-    <input type="text" name="busqueda" placeholder="Buscar fragancia">
-    <p class="error-login"></p>
-    <button type="submit">Buscar</button>
-
-</form>      
+            <input type="text" name="busqueda" placeholder="Buscar producto">
+            <button type="submit">Buscar</button>
+            <p class="error-busqueda"></p>
+        </form>      
     <nav class="nav-principal">
         <ul class="navusuariolista">
             <li><a class="navusuariolink" href="./index.html">Home</a></li>
@@ -75,7 +74,8 @@
         <input class="formularioinput" type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
         </div>
         
-        <p class="error-busqueda"></p>
+        <p class="error-login"></p>
+
         <button class="botoningresar" type="submit">Ingresar</button>
          <a class="formulariolink" href="./register.html">No tengo cuenta</a>
         </form>

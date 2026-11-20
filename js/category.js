@@ -43,7 +43,7 @@ if (contenedorProductos != null) {
             .then(function(data) {
                 console.log(data);
 
-                tituloCategoria.innerText = categoria.replaceAll("-", " ");
+                tituloCategoria.innerText = categoria;
                 contadorCategoria.innerText = data.products.length + " productos";
 
                 contenedorProductos.innerHTML = "";
