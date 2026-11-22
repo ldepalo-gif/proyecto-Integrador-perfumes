@@ -34,5 +34,5 @@ formularioRegister.addEventListener("submit", function(event) {
 
     errorRegister.innerText = "";
 
-    window.location.href = "./login.html";
+    this.submit();
 });

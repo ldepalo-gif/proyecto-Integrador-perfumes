@@ -19,6 +19,6 @@ formularioLogin.addEventListener("submit", function(event) {
     } else {
         errorLogin.innerText = "";
         localStorage.setItem("email", emailIngresado);
-        window.location.href = "./index.html";
+        this.submit();
     }
 });
